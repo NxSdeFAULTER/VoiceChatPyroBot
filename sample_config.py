@@ -2,27 +2,28 @@
 from pyrogram import filters
 
 # Get these two from https://my.telegram.org
-API_ID = 1234567
-API_HASH = "ab1c23def45fg67890h123i45678j9kl"
+API_ID = 2220765
+API_HASH = "e7e5db5d294362c87a7f216396b64f05"
 
 # Get this from @Botfather
-TOKEN = "1234567890:ABCdEFgHij1KlMNop_QrStuVWxyzuA-EmXI"
+TOKEN = "1550034711:AAH7e5_08S0BilifkhFbT7SStap_RAarfdE"
 
 # Your mongodb uri
 MONGO_DB_URI = ""
 
 # The IDs of the users which can stream, skip, pause and change volume
 SUDO_USERS = [
-    383407735,
-    951435494,
-    1392620345
+    1409172724,
+    1142197555,
+    1426137815,
+    690571049
 ]
 
 # The ID of the group where your bot streams
-GROUP = -1001402753006
+GROUP = -1001445249123
 
 # Users must join the group before using the bot (note: the bot should be admin in the group if you enable this)
-USERS_MUST_JOIN = False
+USERS_MUST_JOIN = True
 
 # Send "now playing" messages to the group
 LOG = True
